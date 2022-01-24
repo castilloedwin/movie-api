@@ -1,0 +1,17 @@
+{
+  "name": "movie-api",
+  "version": "0.0.1",
+  "description": "It is just a test API to be able to use in Postman or whatever you want",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --experimental-modules --es-module-specifier-resolution=node server"
+  },
+  "author": "Edwin Castillo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.2"
+  },
+  "type": "module"
+}
